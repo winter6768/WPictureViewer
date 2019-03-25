@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C896BF932244C6970012A52D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BF922244C6970012A52D /* AppDelegate.m */; };
+		C896BF962244C6970012A52D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BF952244C6970012A52D /* ViewController.m */; };
+		C896BF992244C6970012A52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896BF972244C6970012A52D /* Main.storyboard */; };
+		C896BF9B2244C6980012A52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C896BF9A2244C6980012A52D /* Assets.xcassets */; };
+		C896BF9E2244C6980012A52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896BF9C2244C6980012A52D /* LaunchScreen.storyboard */; };
+		C896BFA12244C6980012A52D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFA02244C6980012A52D /* main.m */; };
+		C896BFAB2244C6980012A52D /* WPictureViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFAA2244C6980012A52D /* WPictureViewerTests.m */; };
+		C896BFB62244C6980012A52D /* WPictureViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFB52244C6980012A52D /* WPictureViewerUITests.m */; };
+		C896BFC62244C7B50012A52D /* WPictureViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFC52244C7B50012A52D /* WPictureViewer.m */; };
+		C896BFCC2244D3B10012A52D /* WPictureViewerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */; };
+		C896BFCF2244D3FE0012A52D /* WPictureViewerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */; };
+		C896BFD12244E8F00012A52D /* WPictureViewerFail.png in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD02244E8F00012A52D /* WPictureViewerFail.png */; };
+		C896BFDA2244E94A0012A52D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD32244E9490012A52D /* 3.jpg */; };
+		C896BFDB2244E94A0012A52D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD42244E9490012A52D /* 2.jpg */; };
+		C896BFDC2244E94A0012A52D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD52244E9490012A52D /* 4.jpg */; };
+		C896BFDD2244E94A0012A52D /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD62244E9490012A52D /* 7.jpg */; };
+		C896BFDE2244E94A0012A52D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD72244E9490012A52D /* 1.jpg */; };
+		C896BFDF2244E94A0012A52D /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD82244E9490012A52D /* 6.jpg */; };
+		C896BFE02244E94A0012A52D /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD92244E94A0012A52D /* 5.jpg */; };
+		E83BF612E0920352874F3749 /* Pods_WPictureViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FA192CE9C4CEDA2C9EE57C /* Pods_WPictureViewer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C896BFA72244C6980012A52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C896BF862244C6970012A52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C896BF8D2244C6970012A52D;
+			remoteInfo = WPictureViewer;
+		};
+		C896BFB22244C6980012A52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C896BF862244C6970012A52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C896BF8D2244C6970012A52D;
+			remoteInfo = WPictureViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FA192CE9C4CEDA2C9EE57C /* Pods_WPictureViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPictureViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E20551D0C0DCAE517439B /* Pods-WPictureViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPictureViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPictureViewer/Pods-WPictureViewer.release.xcconfig"; sourceTree = "<group>"; };
+		C896BF8E2244C6970012A52D /* WPictureViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPictureViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C896BF912244C6970012A52D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C896BF922244C6970012A52D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C896BF942244C6970012A52D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C896BF952244C6970012A52D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C896BF982244C6970012A52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C896BF9A2244C6980012A52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C896BF9D2244C6980012A52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C896BF9F2244C6980012A52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C896BFA02244C6980012A52D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C896BFA62244C6980012A52D /* WPictureViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPictureViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C896BFAA2244C6980012A52D /* WPictureViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerTests.m; sourceTree = "<group>"; };
+		C896BFAC2244C6980012A52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C896BFB12244C6980012A52D /* WPictureViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPictureViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C896BFB52244C6980012A52D /* WPictureViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerUITests.m; sourceTree = "<group>"; };
+		C896BFB72244C6980012A52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C896BFC42244C7B50012A52D /* WPictureViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPictureViewer.h; sourceTree = "<group>"; };
+		C896BFC52244C7B50012A52D /* WPictureViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewer.m; sourceTree = "<group>"; };
+		C896BFCA2244D3B10012A52D /* WPictureViewerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPictureViewerUtil.h; sourceTree = "<group>"; };
+		C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerUtil.m; sourceTree = "<group>"; };
+		C896BFCD2244D3FD0012A52D /* WPictureViewerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPictureViewerCell.h; sourceTree = "<group>"; };
+		C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerCell.m; sourceTree = "<group>"; };
+		C896BFD02244E8F00012A52D /* WPictureViewerFail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WPictureViewerFail.png; sourceTree = "<group>"; };
+		C896BFD32244E9490012A52D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C896BFD42244E9490012A52D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C896BFD52244E9490012A52D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C896BFD62244E9490012A52D /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		C896BFD72244E9490012A52D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C896BFD82244E9490012A52D /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		C896BFD92244E94A0012A52D /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F0BACA42428BD0EE52C566E3 /* Pods-WPictureViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPictureViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPictureViewer/Pods-WPictureViewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C896BF8B2244C6970012A52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83BF612E0920352874F3749 /* Pods_WPictureViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFA32244C6980012A52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFAE2244C6980012A52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76EAFD93924D8231BBA6D5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07FA192CE9C4CEDA2C9EE57C /* Pods_WPictureViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C896BF852244C6970012A52D = {
+			isa = PBXGroup;
+			children = (
+				C896BF902244C6970012A52D /* WPictureViewer */,
+				C896BFA92244C6980012A52D /* WPictureViewerTests */,
+				C896BFB42244C6980012A52D /* WPictureViewerUITests */,
+				C896BF8F2244C6970012A52D /* Products */,
+				F0D75138C9ABB7FE08A4F0FE /* Pods */,
+				76EAFD93924D8231BBA6D5A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C896BF8F2244C6970012A52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C896BF8E2244C6970012A52D /* WPictureViewer.app */,
+				C896BFA62244C6980012A52D /* WPictureViewerTests.xctest */,
+				C896BFB12244C6980012A52D /* WPictureViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C896BF902244C6970012A52D /* WPictureViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C896BFD22244E92F0012A52D /* Resources */,
+				C896BF912244C6970012A52D /* AppDelegate.h */,
+				C896BF922244C6970012A52D /* AppDelegate.m */,
+				C896BF942244C6970012A52D /* ViewController.h */,
+				C896BF952244C6970012A52D /* ViewController.m */,
+				C896BFC32244C7960012A52D /* WPictureViewer */,
+				C896BF972244C6970012A52D /* Main.storyboard */,
+				C896BF9A2244C6980012A52D /* Assets.xcassets */,
+				C896BF9C2244C6980012A52D /* LaunchScreen.storyboard */,
+				C896BF9F2244C6980012A52D /* Info.plist */,
+				C896BFA02244C6980012A52D /* main.m */,
+			);
+			path = WPictureViewer;
+			sourceTree = "<group>";
+		};
+		C896BFA92244C6980012A52D /* WPictureViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C896BFAA2244C6980012A52D /* WPictureViewerTests.m */,
+				C896BFAC2244C6980012A52D /* Info.plist */,
+			);
+			path = WPictureViewerTests;
+			sourceTree = "<group>";
+		};
+		C896BFB42244C6980012A52D /* WPictureViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C896BFB52244C6980012A52D /* WPictureViewerUITests.m */,
+				C896BFB72244C6980012A52D /* Info.plist */,
+			);
+			path = WPictureViewerUITests;
+			sourceTree = "<group>";
+		};
+		C896BFC32244C7960012A52D /* WPictureViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C896BFC42244C7B50012A52D /* WPictureViewer.h */,
+				C896BFC52244C7B50012A52D /* WPictureViewer.m */,
+				C896BFCD2244D3FD0012A52D /* WPictureViewerCell.h */,
+				C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */,
+				C896BFCA2244D3B10012A52D /* WPictureViewerUtil.h */,
+				C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */,
+				C896BFD02244E8F00012A52D /* WPictureViewerFail.png */,
+			);
+			path = WPictureViewer;
+			sourceTree = "<group>";
+		};
+		C896BFD22244E92F0012A52D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C896BFD72244E9490012A52D /* 1.jpg */,
+				C896BFD42244E9490012A52D /* 2.jpg */,
+				C896BFD32244E9490012A52D /* 3.jpg */,
+				C896BFD52244E9490012A52D /* 4.jpg */,
+				C896BFD92244E94A0012A52D /* 5.jpg */,
+				C896BFD82244E9490012A52D /* 6.jpg */,
+				C896BFD62244E9490012A52D /* 7.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0D75138C9ABB7FE08A4F0FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0BACA42428BD0EE52C566E3 /* Pods-WPictureViewer.debug.xcconfig */,
+				AA6E20551D0C0DCAE517439B /* Pods-WPictureViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C896BF8D2244C6970012A52D /* WPictureViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C896BFBA2244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewer" */;
+			buildPhases = (
+				22C6FE271E3DD4C2CC54E0DD /* [CP] Check Pods Manifest.lock */,
+				C896BF8A2244C6970012A52D /* Sources */,
+				C896BF8B2244C6970012A52D /* Frameworks */,
+				C896BF8C2244C6970012A52D /* Resources */,
+				6EF8416250C6B7C06541D425 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPictureViewer;
+			productName = WPictureViewer;
+			productReference = C896BF8E2244C6970012A52D /* WPictureViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C896BFA52244C6980012A52D /* WPictureViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C896BFBD2244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewerTests" */;
+			buildPhases = (
+				C896BFA22244C6980012A52D /* Sources */,
+				C896BFA32244C6980012A52D /* Frameworks */,
+				C896BFA42244C6980012A52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C896BFA82244C6980012A52D /* PBXTargetDependency */,
+			);
+			name = WPictureViewerTests;
+			productName = WPictureViewerTests;
+			productReference = C896BFA62244C6980012A52D /* WPictureViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C896BFB02244C6980012A52D /* WPictureViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C896BFC02244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewerUITests" */;
+			buildPhases = (
+				C896BFAD2244C6980012A52D /* Sources */,
+				C896BFAE2244C6980012A52D /* Frameworks */,
+				C896BFAF2244C6980012A52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C896BFB32244C6980012A52D /* PBXTargetDependency */,
+			);
+			name = WPictureViewerUITests;
+			productName = WPictureViewerUITests;
+			productReference = C896BFB12244C6980012A52D /* WPictureViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C896BF862244C6970012A52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = winter;
+				TargetAttributes = {
+					C896BF8D2244C6970012A52D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C896BFA52244C6980012A52D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C896BF8D2244C6970012A52D;
+					};
+					C896BFB02244C6980012A52D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C896BF8D2244C6970012A52D;
+					};
+				};
+			};
+			buildConfigurationList = C896BF892244C6970012A52D /* Build configuration list for PBXProject "WPictureViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C896BF852244C6970012A52D;
+			productRefGroup = C896BF8F2244C6970012A52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C896BF8D2244C6970012A52D /* WPictureViewer */,
+				C896BFA52244C6980012A52D /* WPictureViewerTests */,
+				C896BFB02244C6980012A52D /* WPictureViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C896BF8C2244C6970012A52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896BFE02244E94A0012A52D /* 5.jpg in Resources */,
+				C896BFDB2244E94A0012A52D /* 2.jpg in Resources */,
+				C896BFDC2244E94A0012A52D /* 4.jpg in Resources */,
+				C896BFDA2244E94A0012A52D /* 3.jpg in Resources */,
+				C896BFDD2244E94A0012A52D /* 7.jpg in Resources */,
+				C896BFDF2244E94A0012A52D /* 6.jpg in Resources */,
+				C896BF9E2244C6980012A52D /* LaunchScreen.storyboard in Resources */,
+				C896BF9B2244C6980012A52D /* Assets.xcassets in Resources */,
+				C896BFDE2244E94A0012A52D /* 1.jpg in Resources */,
+				C896BFD12244E8F00012A52D /* WPictureViewerFail.png in Resources */,
+				C896BF992244C6970012A52D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFA42244C6980012A52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFAF2244C6980012A52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22C6FE271E3DD4C2CC54E0DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPictureViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF8416250C6B7C06541D425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WPictureViewer/Pods-WPictureViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPictureViewer/Pods-WPictureViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C896BF8A2244C6970012A52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896BFCF2244D3FE0012A52D /* WPictureViewerCell.m in Sources */,
+				C896BFCC2244D3B10012A52D /* WPictureViewerUtil.m in Sources */,
+				C896BFC62244C7B50012A52D /* WPictureViewer.m in Sources */,
+				C896BF962244C6970012A52D /* ViewController.m in Sources */,
+				C896BFA12244C6980012A52D /* main.m in Sources */,
+				C896BF932244C6970012A52D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFA22244C6980012A52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896BFAB2244C6980012A52D /* WPictureViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BFAD2244C6980012A52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896BFB62244C6980012A52D /* WPictureViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C896BFA82244C6980012A52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C896BF8D2244C6970012A52D /* WPictureViewer */;
+			targetProxy = C896BFA72244C6980012A52D /* PBXContainerItemProxy */;
+		};
+		C896BFB32244C6980012A52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C896BF8D2244C6970012A52D /* WPictureViewer */;
+			targetProxy = C896BFB22244C6980012A52D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C896BF972244C6970012A52D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C896BF982244C6970012A52D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C896BF9C2244C6980012A52D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C896BF9D2244C6980012A52D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C896BFB82244C6980012A52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C896BFB92244C6980012A52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C896BFBB2244C6980012A52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BACA42428BD0EE52C566E3 /* Pods-WPictureViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C896BFBC2244C6980012A52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6E20551D0C0DCAE517439B /* Pods-WPictureViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C896BFBE2244C6980012A52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPictureViewer.app/WPictureViewer";
+			};
+			name = Debug;
+		};
+		C896BFBF2244C6980012A52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPictureViewer.app/WPictureViewer";
+			};
+			name = Release;
+		};
+		C896BFC12244C6980012A52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPictureViewer;
+			};
+			name = Debug;
+		};
+		C896BFC22244C6980012A52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPictureViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WPictureViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPictureViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C896BF892244C6970012A52D /* Build configuration list for PBXProject "WPictureViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C896BFB82244C6980012A52D /* Debug */,
+				C896BFB92244C6980012A52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C896BFBA2244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C896BFBB2244C6980012A52D /* Debug */,
+				C896BFBC2244C6980012A52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C896BFBD2244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C896BFBE2244C6980012A52D /* Debug */,
+				C896BFBF2244C6980012A52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C896BFC02244C6980012A52D /* Build configuration list for PBXNativeTarget "WPictureViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C896BFC12244C6980012A52D /* Debug */,
+				C896BFC22244C6980012A52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C896BF862244C6970012A52D /* Project object */;
+}
