@@ -51,7 +51,7 @@
     viewer.showIndexTitle = YES;
     viewer.currentIndex = tap.view.tag - 700;
     viewer.itemSpace = 10;
-    viewer.animationType = WPictureViewerAnimationAlpha;
+    viewer.animationType = WPictureViewerAnimationScale;
     [viewer show];
 }
 

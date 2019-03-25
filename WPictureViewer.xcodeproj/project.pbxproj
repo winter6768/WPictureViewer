@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84A6D0C2248A725001A5E45 /* WPictureViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C84A6D0B2248A725001A5E45 /* WPictureViewer.bundle */; };
 		C896BF932244C6970012A52D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BF922244C6970012A52D /* AppDelegate.m */; };
 		C896BF962244C6970012A52D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BF952244C6970012A52D /* ViewController.m */; };
 		C896BF992244C6970012A52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896BF972244C6970012A52D /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		C896BFC62244C7B50012A52D /* WPictureViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFC52244C7B50012A52D /* WPictureViewer.m */; };
 		C896BFCC2244D3B10012A52D /* WPictureViewerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */; };
 		C896BFCF2244D3FE0012A52D /* WPictureViewerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */; };
-		C896BFD12244E8F00012A52D /* WPictureViewerFail.png in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD02244E8F00012A52D /* WPictureViewerFail.png */; };
 		C896BFDA2244E94A0012A52D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD32244E9490012A52D /* 3.jpg */; };
 		C896BFDB2244E94A0012A52D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD42244E9490012A52D /* 2.jpg */; };
 		C896BFDC2244E94A0012A52D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C896BFD52244E9490012A52D /* 4.jpg */; };
@@ -49,6 +49,7 @@
 /* Begin PBXFileReference section */
 		07FA192CE9C4CEDA2C9EE57C /* Pods_WPictureViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPictureViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E20551D0C0DCAE517439B /* Pods-WPictureViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPictureViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPictureViewer/Pods-WPictureViewer.release.xcconfig"; sourceTree = "<group>"; };
+		C84A6D0B2248A725001A5E45 /* WPictureViewer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WPictureViewer.bundle; sourceTree = "<group>"; };
 		C896BF8E2244C6970012A52D /* WPictureViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPictureViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C896BF912244C6970012A52D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C896BF922244C6970012A52D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerUtil.m; sourceTree = "<group>"; };
 		C896BFCD2244D3FD0012A52D /* WPictureViewerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPictureViewerCell.h; sourceTree = "<group>"; };
 		C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPictureViewerCell.m; sourceTree = "<group>"; };
-		C896BFD02244E8F00012A52D /* WPictureViewerFail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WPictureViewerFail.png; sourceTree = "<group>"; };
 		C896BFD32244E9490012A52D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		C896BFD42244E9490012A52D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		C896BFD52244E9490012A52D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				C896BFCE2244D3FD0012A52D /* WPictureViewerCell.m */,
 				C896BFCA2244D3B10012A52D /* WPictureViewerUtil.h */,
 				C896BFCB2244D3B10012A52D /* WPictureViewerUtil.m */,
-				C896BFD02244E8F00012A52D /* WPictureViewerFail.png */,
+				C84A6D0B2248A725001A5E45 /* WPictureViewer.bundle */,
 			);
 			path = WPictureViewer;
 			sourceTree = "<group>";
@@ -322,10 +322,10 @@
 				C896BFDA2244E94A0012A52D /* 3.jpg in Resources */,
 				C896BFDD2244E94A0012A52D /* 7.jpg in Resources */,
 				C896BFDF2244E94A0012A52D /* 6.jpg in Resources */,
+				C84A6D0C2248A725001A5E45 /* WPictureViewer.bundle in Resources */,
 				C896BF9E2244C6980012A52D /* LaunchScreen.storyboard in Resources */,
 				C896BF9B2244C6980012A52D /* Assets.xcassets in Resources */,
 				C896BFDE2244E94A0012A52D /* 1.jpg in Resources */,
-				C896BFD12244E8F00012A52D /* WPictureViewerFail.png in Resources */,
 				C896BF992244C6970012A52D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

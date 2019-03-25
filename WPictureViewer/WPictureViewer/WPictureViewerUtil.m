@@ -43,4 +43,18 @@
     return CGRectMake(targetX, targetY, targetWidth, targetHeight);
 }
 
++(UIImage *)wLoadFailedImage {
+    static UIImage *failedImage = nil;
+    
+    if (failedImage == nil) {
+        NSBundle *mainBundle = [NSBundle bundleForClass:[WPictureViewerUtil class]];
+        NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"WPictureViewer" ofType:@"bundle"]];
+        if (resourcesBundle == nil) {
+            resourcesBundle = mainBundle;
+        }
+        failedImage = [UIImage imageNamed:@"WPictureViewerFail" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    }
+    return failedImage;
+}
+
 @end

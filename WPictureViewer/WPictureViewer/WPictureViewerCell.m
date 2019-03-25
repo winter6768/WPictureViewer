@@ -39,11 +39,11 @@
             [self loadImage];
             
         } else {
-            [self setupImage:[UIImage imageNamed:@"WPictureViewerFail"]];
+            [self setupImage:[WPictureViewerUtil wLoadFailedImage]];
         }
         
     } else {
-        [self setupImage:[UIImage imageNamed:@"WPictureViewerFail"]];
+        [self setupImage:[WPictureViewerUtil wLoadFailedImage]];
     }
 }
 
@@ -100,7 +100,7 @@
             [weakSelf setupImage:image];
             
         } else {
-            [weakSelf setupImage:[UIImage imageNamed:@"WPictureViewerFail"]];
+            [weakSelf setupImage:[WPictureViewerUtil wLoadFailedImage]];
         }
     }];
 }

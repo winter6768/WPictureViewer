@@ -18,5 +18,12 @@
  */
 +(CGRect)resizedFrameForImageSize:(CGSize)imageSize;
 
+/**
+ 获取bundle中加载失败图片
+
+ @return 失败图片
+ */
++(UIImage *)wLoadFailedImage;
+
 @end
 
